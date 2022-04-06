@@ -4,11 +4,7 @@ simple systolic array made for 4x4 matrix multiplication
 made in verilog using IcarusVerilog.
 
 guide:
-write matrices in 'mat1' and 'mat2' file respectively in the following format for example:
-  1 2 3 4
-  1 2 3 4\n
-  1 2 3 4\n
-  1 2 3 4\n
+write matrices in 'mat1' and 'mat2' file respectively in the format they initially are (for example open 'mat1' and see format) 
   where there is 'space' between each number.
 run ./mat_calc - this just performs the multiplication and saves result in 'tmpfile' file.
 run /.verilog_implant which will output 'tb_mac3.sv' that has the result matrix loaded in verilog code.
