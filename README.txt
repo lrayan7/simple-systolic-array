@@ -4,6 +4,10 @@ simple systolic array made for 4x4 matrix multiplication
 made in verilog using IcarusVerilog. with simple gui.
 
 guide:
+
+run "python main.py"
+
+
 write matrices in 'matrix1' and 'matrix2' like this:
   1 2 3 4
   1 2 3 4
@@ -11,7 +15,7 @@ write matrices in 'matrix1' and 'matrix2' like this:
   1 2 3 4
   where there is 'space' between each number.
 
-run "python main.py"
+
 
 
 notes:
